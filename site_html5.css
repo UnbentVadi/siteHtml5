@@ -1,0 +1,226 @@
+body {
+	font: 1em "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #777;
+	background-color: #f9f8f7;
+	margin: 0;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	height: 116px;
+}
+
+.list_nav .navigation {
+	position: relative;
+	font-size: 13px;
+	color: #777;
+	width: 665px;
+	height: 116px;
+	float: right;
+}
+
+.list_nav {
+	max-width: 1080px;
+	height: 116px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.ubspot img {
+	max-width: 100px;
+}
+
+.list_nav .ubspot {
+	float: left;
+	display: inline-block;
+	margin-top: 64px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+}
+
+ul li {
+	font-size: 1em;
+	color: #555;
+	line-height: 1.6em;
+}
+
+.header_navigation .software ul {
+	visibility: hidden;
+}
+
+.navigation .header_navigation .software:hover a {
+	visibility: visible;	
+}
+
+.header_navigation .about .about_drop-down_list {
+	visibility: hidden;
+}
+
+.header_navigation .blogs ul {
+	visibility: hidden;
+}
+
+.navigation .second {
+	background: #fff;
+	border-bottom: 1px solid #555;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.header_navigation .blogs:hover ul {
+	visibility: visible;
+}
+
+.navigation .languages_1 ul {
+	visibility: hidden;
+}
+
+.navigation .search form {
+	visibility: hidden;
+}
+
+.header_navigation .about:hover .about_drop-down_list{
+	visibility: visible;
+}
+
+.header_navigation .blogs a:hover ,
+.header_navigation .software a:hover,
+.header_navigation .about a:hover,
+.header_navigation .agencies a:hover,
+.header_navigation .pricing a:hover {
+	color: #f7751f;
+}
+
+.navigation .naver .sign_in {
+	color: #f7751f;
+}
+
+.navigation .naver .sign_in:hover {
+	text-decoration: underline;
+}
+
+.navigation .languages_1 .languages {
+	background-image: url("http://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/icons/globe-icon.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+.navigation .search .search_main {
+	cursor: pointer;
+	background-image: url("http://cdn2.hubspot.net/hub/53/file-680128125-svg/assets/hubspot.com/V2-Global/v2-search-icon-dark.svg");
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	width: 0px;
+	padding: 0px;
+	padding-left: 30px;
+}
+
+.naver {
+	padding-top: 15px;
+	float: right;
+}
+
+.naver li {
+	padding: 0 8px;
+}
+
+.navigation .header_navigation ul li {
+	margin: 0;
+	padding: 0;
+	display: table-cell;
+	text-align: center;
+}
+
+.list_nav .navigation ul li {
+	display: table-cell;
+}
+
+.list_nav .navigation .header_navigation {
+	padding: 0;
+	margin: 0;
+	display: table;
+	float: right;
+}	
+
+.list_nav .header_navigation a {
+	display: inline-block;
+	position: relative;
+	color: #555;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 10px 15px;
+
+}
+
+}
+.list_nav .navigation .header_navigation li {
+	padding: 0px;
+	margin: 0px;
+	display: table;
+}
+
+.navigation .one {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	transform: translateY(100%);
+	background: #3b3f3f;
+	box-shadow: 0 5px 10px -5px #111;
+	padding: 27px 0;
+	z-index: -55;
+}
+.navigation .about_drop-down_list{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	transform: translateY(100%);
+	background: #3b3f3f;
+ 	box-shadow: 0 5px 10px -5px #111;	
+	padding: 27px 0;
+	z-index: -55;
+}
+.navigation .second {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	transform: translateY(100%);
+	background: #3b3f3f;
+	box-shadow: 0 5px 10px -5px #111;
+	padding: 27px 0;
+	z-index: -55;
+}
+
+.navigation .free_trial a {
+	background: #1da1db;
+	color: #fff;
+	text-align: center;
+	border: 3px solid;
+	border-color: #1da1db;
+	border-radius: 5px;
+	margin: 15px 0 15px 15px;
+	padding: 11px 15px;
+	width: 97px;
+	height: 19px;
+}
+
+.navigation .free_trial:hover a {
+	background: #1780ae;
+	color: #fff;
+	border-color: #1780ae;
+}
