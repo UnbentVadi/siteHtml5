@@ -358,3 +358,44 @@ h1, h2, h3, h4, h5 {
 	border-left: 1px solid #e0e0e0;
 	padding-left: 15px;
 }
+
+.tour {
+	background: #0f434c;
+	height: 178px;
+	padding: 1px 40px;
+}
+
+.tour .quick_tour {
+	display: table;
+	margin: 35px auto 40px auto;
+} 
+
+.tour .quick_tour p {
+	color: #fff;
+	font-size: 16px;
+	line-height: 25.6px;
+	display: table-cell;
+    width: 490px;
+    vertical-align: middle;
+    padding: 1px 22px;
+}
+
+.tour .button_tour {
+	border: 3px solid #1da1db;
+	background: #1da1db;
+	color: #fff;
+	padding: 16px 40px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 0.9px;
+	display: inline-block;
+	text-align: center;
+	margin: 20px
+}
+
+.tour .button_tour:hover {
+	background: rgba(29,161,219,0.8);
+}
