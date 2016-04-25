@@ -224,3 +224,137 @@ ul li {
 	color: #fff;
 	border-color: #1780ae;
 }
+/* main */
+
+main .how_to_write_an_ebook {
+	background-image: url(http://cdn2.hubspot.net/hubfs/53/LandingPages_Hero.jpg?t=1461526102984);
+	height: 485px;
+	padding-bottom: 85px;
+}
+
+.how_to_write_an_ebook {
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.fon_second .ebook {
+	position: relative;
+	background: #f9f8f7;
+	max-width: 625px;
+	margin: -85px auto 0 auto;
+	padding: 30px 30px 0;
+	z-index: 1;
+}
+
+.how_to_write_an_ebook .ebook_block {
+	margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.how_to_write_an_ebook .ebook_block h1 {
+	color: #fff;
+	margin: 0 auto 15px auto;
+
+}
+h1 {
+	font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 48px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+}
+
+h1, h2, h3, h4, h5 {
+	line-height: 1.25em;
+}
+
+.how_to_write_an_ebook .ebook_block p {
+	color: #fff;
+    font-family: "KlinicSlabBook",serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    margin: 30px auto;
+}
+
+.how_to_write_an_ebook .ebook_block .build_a_landing_page {
+	padding: 17px 40px;
+	background: rgba(29,161,219,0.8);
+	border: 3px solid #1da1db;
+	color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.9px;
+    text-align: center;
+    display: inline-block;
+    line-height: 1.5em;
+    margin: 10px;
+}
+
+.how_to_write_an_ebook .ebook_block .build_a_landing_page:hover{
+	border: 3px solid #1b96cc;
+	background: #1b96cc;
+}
+
+.fon_second {
+	position: relative;
+}
+
+.fon_second .ebook img {
+	display: block;
+	box-shadow: 0 -3px 30px 0 rgba(121,121,121,0.5);
+	max-width: 100%;
+}
+
+.fon_second .ebook .create_beautiful_landing_pages_in_seconds {
+	top: 135px;
+	left: 0;
+	transform: matrix(1, 0, 0, 1, -220, 0);
+	text-align: right;
+	border-right: 1px solid #e0e0e0;
+	padding-right: 15px;
+	position: absolute;
+	font-size: 16px;
+}
+
+.fon_second .ebook .create_beautiful_landing_pages_in_seconds h4,
+.fon_second .ebook .integrate_forms_and_calls h4 {
+	font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+	letter-spacing: 0.85px;
+	line-height: 25.5px;
+	text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: rgb(85, 85, 85);
+
+}
+
+.fon_second .ebook .create_beautiful_landing_pages_in_seconds p,
+.fon_second .ebook .integrate_forms_and_calls p {
+	margin-top: 5px;
+	margin-bottom: 15px;
+	font-size: 16px;
+	line-height: 25.6px;
+	color: #797979;
+
+}
+.fon_second .ebook .integrate_forms_and_calls {
+	right: 0;
+	bottom: 50px;
+	transform: matrix(1, 0, 0, 1, 220, 0);
+	position: absolute;
+	border-left: 1px solid #e0e0e0;
+	padding-left: 15px;
+}
