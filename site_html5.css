@@ -1,5 +1,6 @@
 body {
-	font: 1em "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1em;
 	color: #777;
 	background-color: #f9f8f7;
 	margin: 0;
@@ -398,4 +399,111 @@ h1, h2, h3, h4, h5 {
 
 .tour .button_tour:hover {
 	background: rgba(29,161,219,0.8);
+}
+
+.so_what_makes_us_different {
+	padding: 50px 0 20px 0;
+	text-align: center;
+	background-color: #fff;
+}
+
+.so_what_makes_us_different h2 {
+	line-height: 42px;
+	font-size: 32px;
+	font-weight: 600;
+	letter-spacing: 0.07em;
+	color: rgb(85, 85, 85);
+}
+
+.make_content_more_personal {
+	width: 100%;
+	padding: 10px 0;
+	background: #fff;
+}
+
+.make_content_more_personal .content_block_personal {
+	max-width: 949px;
+	padding: 0 20px;
+	margin: 0 auto;
+
+}
+.content_pivblock,
+.optimized_search,
+.funnel_your {
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+}
+
+.content_personal,
+.integrated_with_your_funnel, 
+.optimized_integrated {
+	text-align: center;
+	height: 176px;
+	overflow: hidden;
+	padding: 25px 10px 0 10px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.content_personal img,
+.integrated_with_your_funnel img, 
+.optimized_integrated img {
+	max-height: 148px;
+	max-width: 155px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.landing_pages_are,
+.personal,
+.ranking_page {
+	padding: 24px 30px 15px 30px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.landing_pages_are h3,
+.personal h3,
+.ranking_page h3 {
+	font-size: 17px;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	line-height: 1.5em;
+	text-align: center;
+} 
+
+.landing_page {
+	background-color: #fff;
+	overflow: hidden;
+	padding: 0 20px;
+}
+
+.button_langing_page {
+	display: table;
+	margin: 20px auto 50px auto;
+	max-width: 735px;
+}
+
+.landing_page .button_langing_page .create_a_landing_page {
+	background: #1da1db;
+	border: 3px solid #1da1db;
+	color: #fff;
+	padding: 14px 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.9px;
+    text-align: center;
+    display: inline-block;
+}
+
+.landing_page .button_langing_page .create_a_landing_page:hover {
+	background: #1b96cc;
+	border: 3px solid #1b96cc;
+	color: #fff;
 }
